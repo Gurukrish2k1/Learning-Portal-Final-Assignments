@@ -1,0 +1,31 @@
+@w1: 50px;
+@w2: 100px;
+@w3: 200px;
+
+body{
+    background-color: grey;
+    height: auto;
+    color: white;
+    padding: 10px;
+    display: flex;
+}
+div{
+    padding: 10px;
+    margin: 10px 10px;
+    border: 2px solid white;
+    height: 60vh;
+}
+.b1{
+    width: @w1+@w1;
+}
+
+.b2{
+    width: @w3*4;
+}
+
+.b3{
+    width: (@w3*3) + (@w2*2) + @w1;
+}
+
+
+
