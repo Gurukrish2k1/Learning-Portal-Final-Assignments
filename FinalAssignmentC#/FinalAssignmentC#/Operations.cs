@@ -85,7 +85,7 @@ class Operations : AppointmentManager
 
         System.Console.WriteLine("Enter your gender");
         bool temp1 = Enum.TryParse<Gender>(Console.ReadLine(), out Gender gender);
-        while (!temp1)
+        while (!temp1 || gender != (Gender)1 && gender!= (Gender)0)
         {
             System.Console.WriteLine("Invalid input. Enter again");
             System.Console.WriteLine("Enter your gender");

@@ -104,18 +104,21 @@ namespace FinalAssignmentC_
         protected static void ViewAppointments()
         {
             bool flag = false;
+            System.Console.WriteLine();
+            System.Console.WriteLine("Appointment Details:");
             foreach (Appointment details in appointmentList)
             {
                 if (Currentpatient.PatientID == details.PatientID)
                 {
                     flag = true;
-                    System.Console.WriteLine($"{details.AppointmentID}  {details.PatientID}  {details.DoctorID}  {details.Date}  {details.Problem}");
+                    System.Console.WriteLine($"AppointmentID - {details.AppointmentID}  \nPatientID - {details.PatientID}  \nDoctorID - {details.DoctorID}  \nAppointment Date - {details.Date}  \nMedical Condition - {details.Problem}");
                 }
             }
             if (!flag)
             {
                 System.Console.WriteLine("You have not booked any appointment");
             }
+            System.Console.WriteLine();
         }
 
         protected static void EditPatientProfile()

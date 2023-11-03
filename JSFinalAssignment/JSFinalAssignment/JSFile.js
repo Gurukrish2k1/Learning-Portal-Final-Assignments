@@ -94,26 +94,31 @@ function NameValidate()
 function MailValidate()
 {
     var ele1 = document.getElementById("mail").value;
-    var i=0, count=0;
-    var flag;
+    var domain = ["com", "in"];
+    var i=0, count1=0, count2=0;
+    var flag1, flag2;
     for(i=0; i<ele1.length;i++)
     {
         if(ele1[i] == '@')
         {
-            count++;
-            if(count==1)
+            count1++;
+            if(count1==1)
             {
-                flag = true;
-            }
-            else
-            {
-                flag = false;
-                break;
+                flag1 = true;
             }
             
         }
+        if(ele1[i] == '.')
+        {
+            count2++;
+            if(count2==1)
+            {
+                flag2 = true;
+            }
+        }
+          
     }
-    if(!flag)
+    if(!(flag1 && flag2))
     {
         if(ele1 == "")
         {
@@ -233,7 +238,6 @@ function Save()
         var Category = document.getElementById("dept").value;
 
         localStorage.setItem('BookName', BookName);
-        console.log("hi "+BookName);
         localStorage.setItem('AuthorName', AuthorName);
         localStorage.setItem('AuthorEMail', AuthorMail);
         localStorage.setItem('Published', Published);

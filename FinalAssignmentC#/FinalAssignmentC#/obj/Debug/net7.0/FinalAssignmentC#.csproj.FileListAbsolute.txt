@@ -1,0 +1,14 @@
+D:\Git\Learning-Portal-Final-Assignments\FinalAssignmentC#\FinalAssignmentC#\bin\Debug\net7.0\FinalAssignmentC#.exe
+D:\Git\Learning-Portal-Final-Assignments\FinalAssignmentC#\FinalAssignmentC#\bin\Debug\net7.0\FinalAssignmentC#.deps.json
+D:\Git\Learning-Portal-Final-Assignments\FinalAssignmentC#\FinalAssignmentC#\bin\Debug\net7.0\FinalAssignmentC#.runtimeconfig.json
+D:\Git\Learning-Portal-Final-Assignments\FinalAssignmentC#\FinalAssignmentC#\bin\Debug\net7.0\FinalAssignmentC#.dll
+D:\Git\Learning-Portal-Final-Assignments\FinalAssignmentC#\FinalAssignmentC#\bin\Debug\net7.0\FinalAssignmentC#.pdb
+D:\Git\Learning-Portal-Final-Assignments\FinalAssignmentC#\FinalAssignmentC#\obj\Debug\net7.0\FinalAssignmentC#.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\Learning-Portal-Final-Assignments\FinalAssignmentC#\FinalAssignmentC#\obj\Debug\net7.0\FinalAssignmentC#.AssemblyInfoInputs.cache
+D:\Git\Learning-Portal-Final-Assignments\FinalAssignmentC#\FinalAssignmentC#\obj\Debug\net7.0\FinalAssignmentC#.AssemblyInfo.cs
+D:\Git\Learning-Portal-Final-Assignments\FinalAssignmentC#\FinalAssignmentC#\obj\Debug\net7.0\FinalAssignmentC#.csproj.CoreCompileInputs.cache
+D:\Git\Learning-Portal-Final-Assignments\FinalAssignmentC#\FinalAssignmentC#\obj\Debug\net7.0\FinalAssignmentC#.dll
+D:\Git\Learning-Portal-Final-Assignments\FinalAssignmentC#\FinalAssignmentC#\obj\Debug\net7.0\refint\FinalAssignmentC#.dll
+D:\Git\Learning-Portal-Final-Assignments\FinalAssignmentC#\FinalAssignmentC#\obj\Debug\net7.0\FinalAssignmentC#.pdb
+D:\Git\Learning-Portal-Final-Assignments\FinalAssignmentC#\FinalAssignmentC#\obj\Debug\net7.0\FinalAssignmentC#.genruntimeconfig.cache
+D:\Git\Learning-Portal-Final-Assignments\FinalAssignmentC#\FinalAssignmentC#\obj\Debug\net7.0\ref\FinalAssignmentC#.dll
