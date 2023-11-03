@@ -1,0 +1,30 @@
+@import './Variables';
+body{
+    background-color: $BGcolor;
+    display: $displayType;
+    font-family: $myFont;
+
+    h1{
+        text-align: center;
+        color: darkblue;
+    }
+}
+
+div{
+    width: 50%;
+    float: left;
+    font-size: x-large;
+    color: $textClr;
+
+    p{
+        width: 99%;
+        color: $answerClr;
+    }
+
+    hr{
+        margin-right: 40px;
+    }
+}
+
+
+

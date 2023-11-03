@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Library Management</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../JSFinalAssignment/CSSFile.css">
+
+    </head>
+
+    <body>
+        <div class="topBox">
+                <img src="../JSFinalAssignment/OnlyLogo-removebg-preview.png" alt="Syncfusion logo">
+        </div>
+
+        <div class="words">
+            <span class="book">Library Portal</span>
+            <span style="margin-left: 40px; color: blue;" class="book">Books</span>
+        </div>
+        <div class="aBox"><h1>Add New Book</h1></div>
+        
+        <div class="Middle">
+            <form action="">
+            <label style="margin-left: 30px;" for="dept">Category</label>
+            <select name="Department" id="dept">
+                <option value="IT" selected>IT</option>
+                <option value="ECE">ECE</option>
+                <option value="CHEM">CHEM</option>
+                <option value="EEE">EEE</option>
+                <option value="MECH">MECH</option>
+            </select>
+            <div class="Details">
+                <label for="book">Book</label>
+                    <input style="margin-left: 160px;" type="text" id="bookname" name="bookname" onkeyup="BookValidate()"><span id="Text"></span><br><br>
+                         
+
+                <label for="mail">Author Email</label>
+                    <input type="text" id="mail" onkeyup="MailValidate()"> <span id="mailID"></span> <br><br>
+
+                <label for="name1">Author Name</label>
+                    <input type="text"  id="name" onkeyup="NameValidate()"> <span id="AuthorName"></span><br><br>
+
+                <label for="published1">Published</label>
+                    <input style="margin-left: 95px;" type="date"  id="published" onchange="DateValidate()"> <span id="Date"></span> <br><br>
+
+                <label for="price">Price</label>
+                    <input style="margin-left: 165px;" type="text"  id="price" onkeyup="PriceValidate()"> <span id="Amount"></span><br><br>
+            </div>
+            <div class="Buttons">
+                <button class="save" type="button" onclick="Save()">Save</button>
+                <button class="cancel" type="reset" onclick="Reset()">Cancel</button>
+                <button class="show" type="button"><a href="../JSFinalAssignment/DetailsHTML.html" target="_blank">Show</a></button>
+            </div>
+            </form>
+            <p>Copyright @2019 - present Syncfusion</p>
+        </div>
+
+        <div class="Footer"></div>
+    </body>
+    <script src="../JSFinalAssignment/JSFile.js"> </script>
+</html>

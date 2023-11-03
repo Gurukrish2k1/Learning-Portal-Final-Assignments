@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(247, 243, 245);
+    padding: 5px 30px;
+    font-size: 25px;
+}
+
+@mixin BoxStyle(){
+    h2{
+       font-size: xx-large; 
+       color: darkblue; 
+    }
+    p{
+        color: blue;
+        font-size: 20px;
+    }
+    display: inline-block;
+    width: 30%;
+    height: 20%;
+    margin: 15px
+}
+
+.box1{
+    @include BoxStyle();
+}
+.box2{
+    @include BoxStyle();
+}
+.box3{
+    @include BoxStyle();
+}
+.box4{
+    @include BoxStyle();
+}
+.box5{
+    @include BoxStyle();
+}
+.box6{
+    @include BoxStyle();
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Details</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../JSFinalAssignment/DetailsDisplay.css">
+        
+    </head>
+
+    <body>
+        <div class="topBox">
+                <img src="../JSFinalAssignment/OnlyLogo-removebg-preview.png" alt="Syncfusion logo">
+        </div>
+
+        <div class="words">
+            <span class="book">Library Portal</span>
+            <span style="margin-left: 40px; color: blue;" class="book">Books</span>
+        </div>
+        <div class="aBox"><h1>Book Details</h1></div><br>
+
+        <div class="Middle">
+            <label style="margin-left: 30px;" for="dept">Category</label> <span style="margin-left: 150px;" id="CategorySpan"></span>
+            <div class="Details">
+                <label for="bookname">Book</label>    
+                <span style="margin-left: 205px;" id="BookNameSpan"></span><br><br>
+
+                <label for="mail">Author Email</label> <span style="margin-left: 95px;" id="AuthorEmailSpan"></span><br><br>
+                
+
+                <label for="name">Author Name</label><span style="margin-left: 97px;" id="AuthorNameSpan"></span>   <br><br>
+                
+
+                <label for="published">Published</label><span style="margin-left: 143px;" id="PublishedSpan"></span> <br><br>
+                 
+
+                <label for="price">Price</label><span style="margin-left: 212px;" id="PriceSpan"></span> <br><br>
+                  
+            </div>
+
+            <p>Copyright @2019 - present Syncfusion</p>
+        </div>
+    </body>
+
+    <script>
+
+        document.getElementById("BookNameSpan").innerHTML = localStorage.getItem("BookName");
+        document.getElementById("AuthorNameSpan").innerHTML =   localStorage.getItem("AuthorName");
+        console.log(localStorage.getItem("AuthorEMail"));
+
+        document.getElementById("AuthorEmailSpan").innerHTML =  localStorage.getItem("AuthorEMail");
+        document.getElementById("PublishedSpan").innerHTML =   localStorage.getItem("Published");
+        document.getElementById("PriceSpan").innerHTML =  localStorage.getItem("Price");
+        document.getElementById("CategorySpan").innerHTML =  localStorage.getItem("Category");
+    </script>  
+</html>

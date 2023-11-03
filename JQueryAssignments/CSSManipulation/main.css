@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  background-color: aliceblue;
+}
+
+div {
+  border: 1px solid black;
+  width: 32%;
+  height: 75vh;
+  margin: 65px 10px;
+  box-shadow: 5px 5px grey;
+}
+div .p1, div .p2, div .p3, div .cloud, div .embeded, div .premise {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  color: blue;
+}
+div .cloud, div .embeded, div .premise {
+  font-size: x-large;
+  color: purple;
+}
+
+
+.button1, .three button, .two button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid red;
+  color: red;
+  background-color: white;
+  margin: 10px 5px;
+  margin-left: 190px;
+}
+.button1:hover, .three button:hover, .two button:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.ChangingB2 {
+  background-color: black !important;
+  border-color: red !important;
+}
+
+.ChangingB3 {
+  color: white !important;
+  background-color: green !important;
+  border: 4px solid black !important;
+}
+
+.Premise {
+  font-size: xx-large !important;
+  color: green !important;
+}
+
+.TwoP{
+    color: palevioletred !important;
+    font-size: 25px !important;
+}
+
+.p3Embeded {
+  color: orange !important;
+  font-size: 35px !important;
+}
+
+.Embeded{
+  color: red !important;
+  font-size: 40px !important;
+}
+
+.one img {
+  margin-top: -8px;
+  margin-left: 23px;
+}
+
+.three img {
+  margin-left: 70px;
+  margin-top: -10px;
+  margin-bottom: -15px;
+}
+
+.two img {
+  margin-top: auto;
+  margin-left: 55px;
+}/*# sourceMappingURL=main.css.map */

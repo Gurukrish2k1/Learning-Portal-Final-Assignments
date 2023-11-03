@@ -1,0 +1,121 @@
+body{
+    padding: 10px;
+    border: solid orange;
+    border-radius: 20px;
+    height: fit-content;
+    background-color: black;
+}
+.topBox{
+    margin: 10px auto;
+    border: solid wheat;
+    border-radius: 25px ;
+    background-color:  #ffab00;
+    height:fit-content;
+}
+.topBox img{
+    width: 50px;
+    height: 50px;
+    padding: 10px 20px;
+}
+.words{
+    margin-top: -70px;
+    margin-left: 90px;
+    float: left;
+}
+.book{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    color: black;
+    font-weight: bold;
+}
+h1{
+    padding: 3px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    color: black;
+    font-weight: bold;
+}
+.aBox{
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border: solid wheat;
+    border-radius: 25px ;
+    background-color:  #ffab00;
+    width: fit-content;
+    height:fit-content;
+}
+.Middle select{
+    width: 325px;
+    border: solid 5px gold;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 106px;
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: x-large;
+    background-color: #ffab00;
+}
+
+label{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.Details{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.Details input{
+    margin-top: 15px;
+    font-size: x-large;
+    padding-left: 20px;
+    background-color: white;
+    border: solid 5px darkblue;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+.Buttons{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.Buttons button{
+    margin: -5px 10px;
+    padding: 15px;
+    background-color: #ffab00;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+.Middle p{
+    margin-top: 60px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#Text , #Numbers, #mailID, #AuthorName, #Date, #Amount{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    color: red;
+    margin-left: 20px;
+}
+
+#published{
+    padding: 2px 10px;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}

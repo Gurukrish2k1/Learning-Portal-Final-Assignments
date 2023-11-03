@@ -1,0 +1,12 @@
+@import './Variables';
+
+body{
+    font-size: larger   ;
+    background-color: $BGcolor;
+    h3{
+        color: $textClr;
+    }
+    span{
+        color: $hoverClr;
+    }
+}

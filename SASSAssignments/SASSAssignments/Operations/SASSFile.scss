@@ -1,0 +1,38 @@
+@function Width($p1...)
+{
+    $sum: 0;
+    @each $num in $p1{
+        $sum: $sum+$num;
+    }
+    @return $sum;
+}
+
+body{
+    background-color: rgb(249, 241, 243);
+    height: auto;
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+    display: flex;
+}
+div{
+    padding: 10px;
+    margin: 10px 10px;
+    margin-top: 80px;
+    border: 2px solid black;
+    height: 60vh;
+}
+.b1{
+    width: Width(60px,60px);
+}
+
+.b2{
+    width: Width(210px,240px,210px);
+}
+
+.b3{
+    width: Width(320px,330px,420px);
+}
+
+
+

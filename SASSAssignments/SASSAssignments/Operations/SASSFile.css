@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(249, 241, 243);
+  height: auto;
+  font-weight: bold;
+  color: black;
+  padding: 20px;
+  display: flex;
+}
+
+div {
+  padding: 10px;
+  margin: 10px 10px;
+  margin-top: 80px;
+  border: 2px solid black;
+  height: 60vh;
+}
+
+.b1 {
+  width: 120px;
+}
+
+.b2 {
+  width: 660px;
+}
+
+.b3 {
+  width: 1070px;
+}/*# sourceMappingURL=SASSFile.css.map */

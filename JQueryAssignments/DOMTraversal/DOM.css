@@ -1,0 +1,25 @@
+body {
+  font-size: larger;
+  background-color: rgb(187, 234, 240);
+}
+body h3 {
+  color: darkblue;
+}
+body span {
+  color: red;
+}
+
+button{
+  font-size: large;
+  background-color: darkblue;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.colorChange{
+  font-weight: bold;
+  color:orange;
+}
