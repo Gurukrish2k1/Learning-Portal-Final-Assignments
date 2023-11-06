@@ -1,0 +1,51 @@
+*{
+    position: relative;
+}
+body{
+    color: white;
+    background-color: #0d791e;
+}
+.bg{
+    position: absolute;
+    background-image: url("images/BillionairesListThumbnail.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    opacity: 0.2;
+}
+
+button img{
+    width: 60px;
+    height: 60px;
+}
+.buttons{
+    margin-top: 100px;
+    text-align: center;
+}
+.b1{
+    margin-right: 30px;
+}
+
+.b2{
+    margin-left: 30px;
+}
+.content{
+    text-align: center;
+}
+hr{
+    border: 2px solid sandybrown;
+}
+#caption{
+    font-weight: bold;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+#image{
+    border: 5px solid white;
+    border-radius: 100%;
+    width: 700px;
+    height: 400px;
+    margin-bottom: -70px;
+}
+
