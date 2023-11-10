@@ -174,7 +174,7 @@ function PriceValidate()
     }
     else
     {
-        if(price.length == 0)
+        if(price.length ==0)
         {
             document.getElementById("price").style.border = "solid 5px darkblue";
             document.getElementById("Amount").innerHTML = "";

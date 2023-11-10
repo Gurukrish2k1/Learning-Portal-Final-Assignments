@@ -16,6 +16,7 @@ namespace FinalAssignmentC_
         public static event BookingEventHandler OnBooking;
 
         public static Patient Currentpatient;
+        public static Doctor CurrentDoctor;
 
         protected static List<Doctor> doctorList = new List<Doctor>();
         protected static List<Patient> patientList = new List<Patient>();
@@ -65,6 +66,7 @@ namespace FinalAssignmentC_
                     }
                     if (count < 2)
                     {
+                        CurrentDoctor = doctors;
                         System.Console.WriteLine($"Appointment is confirmed for the date – {today}. To book press “Y”, to cancel press “N");
                         string choice = Console.ReadLine().ToUpper();
                         while (choice != "N" && choice != "Y")
@@ -111,7 +113,7 @@ namespace FinalAssignmentC_
                 if (Currentpatient.PatientID == details.PatientID)
                 {
                     flag = true;
-                    System.Console.WriteLine($"AppointmentID - {details.AppointmentID}  \nPatientID - {details.PatientID}  \nDoctorID - {details.DoctorID}  \nAppointment Date - {details.Date}  \nMedical Condition - {details.Problem}");
+                    System.Console.WriteLine($"AppointmentID - {details.AppointmentID.ToString().PadRight(19)}  \nPatientID - {details.PatientID.ToString().PadRight(15)}  \nPatient Name - {Currentpatient.Name.PadRight(17)}  \nGender - {Currentpatient.Gender.ToString().PadRight(21)}   \nDoctorID - {details.DoctorID.ToString().PadRight(19)}  \nDoctor Name - {CurrentDoctor.Name.PadRight(16)}  \nAppointment Date - {details.Date.ToString().PadRight(11)}  \nMedical Condition - {details.Problem.PadRight(10)}");
                 }
             }
             if (!flag)
